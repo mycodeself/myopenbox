@@ -1,0 +1,15 @@
+#tap click touchpad
+synclient TapButton1=1
+# panel
+tint2 &
+#dock
+#tint2 -c ~/.config/tint2/dock.tint2rc &
+# volume icon
+volumeicon &
+# wallpaper
+sh ~/.fehbg &
+# compositor
+xcompmgr &
+# conky
+conky -c ~/.config/conky/conkyrc &
+
